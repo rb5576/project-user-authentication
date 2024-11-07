@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #D5006D, #FF6F00, #C62828); /* Dark pink, dark orange, dark red */
+    font-family: Arial, sans-serif; /* Use a clean font */
+}
+
+form {
+    background: rgba(255, 255, 255, 0.8); /* Light background for contrast */
+    border-radius: 10px;
+    padding: 50px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 90%; /* Responsive width */
+    max-width: 400px; /* Maximum width */
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #D5006D; /* Change border color on focus */
+    outline: none;
+}
+
+button {
+    background-color: #D5006D; /* Button color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px; /* Space between buttons */
+}
+
+button[type="reset"] {
+    background-color: #FF6F00; /* Different color for reset */
+}
+
+button:hover {
+    opacity: 0.9; /* Slight fade effect on hover */
+}
